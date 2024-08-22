@@ -1,23 +1,21 @@
 package List_02;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+
 
 public class AreaDePesquisa {
 
-    private List<String> areas;
+    private String nome;
 
-    public AreaDePesquisa(String areaPesquisa) {
-        this.areas = new ArrayList<>();
-        areas.add(areaPesquisa);
+    public AreaDePesquisa(String nome) {
+        this.nome = nome;
     }
 
-    public void adicionarArea(String areaPesquisa) {
-        areas.add(areaPesquisa);
+    public String getNome() {
+        return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
 
-
-
+    }
 }

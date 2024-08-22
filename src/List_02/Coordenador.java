@@ -41,4 +41,28 @@ public class Coordenador {
     public String getFuncao() {
         return funcao;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setInstituicaoDeOrigem(String instituicaoDeOrigem) {
+        this.instituicaoDeOrigem = instituicaoDeOrigem;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setFuncao(String funcao) {
+        this.funcao = funcao;
+    }
 }
