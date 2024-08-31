@@ -7,14 +7,14 @@ public class Livros extends Publicacao {
     private String editora;
     private String localDePublicacao;
 
-    public Livros(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, Pesquisa pesquisaAssociada, String editora, String localDePublicacao) {
-        super(titulo, ano, areas, autores, pesquisaAssociada);
+    public Livros(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, Pesquisa pesquisaAssociada, String editora, String localDePublicacao, AreasEspecificadasPelaSociedade areasEspecificadas) {
+        super(titulo, ano, areas, autores, pesquisaAssociada, areasEspecificadas);
         this.editora = editora;
         this.localDePublicacao = localDePublicacao;
     }
 
-    public Livros(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, String editora, String localDePublicacao) {
-        super(titulo, ano, areas, autores);
+    public Livros(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, String editora, String localDePublicacao, AreasEspecificadasPelaSociedade areasEspecificadas) {
+        super(titulo, ano, areas, autores, areasEspecificadas);
         this.editora = editora;
         this.localDePublicacao = localDePublicacao;
     }

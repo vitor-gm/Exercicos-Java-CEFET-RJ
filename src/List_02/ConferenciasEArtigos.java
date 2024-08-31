@@ -8,8 +8,8 @@ public class ConferenciasEArtigos extends Publicacao {
     private int volume;
     private int numero;
 
-    public ConferenciasEArtigos(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, Pesquisa pesquisaAssociada, String nome, int volume, int numero) {
-        super(titulo, ano, areas, autores, pesquisaAssociada);
+    public ConferenciasEArtigos(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, AreasEspecificadasPelaSociedade areasEspecificadas, Pesquisa pesquisaAssociada, String nome, int volume, int numero) {
+        super(titulo, ano, areas, autores, pesquisaAssociada, areasEspecificadas);
         this.nome = nome;
         this.volume = volume;
         this.numero = numero;

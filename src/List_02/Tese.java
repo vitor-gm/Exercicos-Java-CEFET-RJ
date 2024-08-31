@@ -7,8 +7,8 @@ public class Tese extends Publicacao {
     private String grau;
     private String instituicao;
 
-    public Tese(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, Pesquisa pesquisaAssociada, String grau, String instituicao) {
-        super(titulo, ano, areas, autores, pesquisaAssociada);
+    public Tese(String titulo, int ano, List<AreaDePesquisa> areas, List<String> autores, AreasEspecificadasPelaSociedade areasEspecificadas, Pesquisa pesquisaAssociada, String grau, String instituicao) {
+        super(titulo, ano, areas, autores, pesquisaAssociada, areasEspecificadas);
         this.grau = grau;
         this.instituicao = instituicao;
     }

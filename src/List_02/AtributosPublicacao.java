@@ -15,7 +15,7 @@ public class AtributosPublicacao {
         }
         if (pesquisaAssociada == null) {
             System.out.print("Não há pesquisa associada\n");
-        } else {
+        }else {
             System.out.printf("Pesquisa associada: %s\n", pesquisaAssociada.getNome());
         }
 
