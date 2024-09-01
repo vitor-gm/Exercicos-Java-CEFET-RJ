@@ -1,4 +1,4 @@
-package Simulado
+package Simulado-P2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
